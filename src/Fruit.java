@@ -6,7 +6,9 @@ public class Fruit extends Item {
         this.type = type ;
     }
 
-        public String getTyp(){
-        return type ;
+        public String getType(){return type ;}
+    @Override
+    public String toString(){
+        return "Fruit: "+ getName() + ", Quantity: " + getQuantity()+", Type: "+type;
     }
 }
