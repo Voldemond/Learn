@@ -3,16 +3,9 @@ public class Main {
             String greets = "Hello ";
             int greetlength = greets.length();
 
-            int num = 4;
-
-            int likes = 4035 ;
-            int dislikes = 40 ;
-
-            double total = MathUtils.ratio(likes, dislikes );
-
-
-        System.out.println(total);
-
+            for(int i =0 ; i < greetlength ;i++ ){
+                System.out.print(greets.charAt(i));
+            }
     }
 
 }
